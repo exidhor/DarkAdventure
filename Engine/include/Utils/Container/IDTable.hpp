@@ -20,8 +20,8 @@ namespace dae
 
 			void push_back(Object const& newElement);
 
-			template <class ... Args>
-			void emplace_back(Args&& ... args);
+			/*template <class ... Args>
+			void emplace_back(Args&& ... args);*/
 
 			Object & operator[](unsigned index);
 

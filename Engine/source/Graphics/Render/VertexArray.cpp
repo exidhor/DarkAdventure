@@ -138,7 +138,7 @@ sf::Color const& VertexArray::getColor() const
 
 void VertexArray::copyArray(sf::Vertex* dest, sf::Vertex* origin, int size)
 {
-    memcpy((void*) dest, (void*) origin, size * sizeof(sf::Vertex));
+    //memcpy((void*) dest, (void*) origin, size * sizeof(sf::Vertex));
 }
 
 void VertexArray::copyArray(std::vector<sf::Vertex> & dest, std::vector<sf::Vertex> const& origin)

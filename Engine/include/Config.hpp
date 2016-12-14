@@ -1,8 +1,8 @@
 #pragma once
 //disable warnings on 255 char debug symbols
-#pragma warning (disable : 4786)
+//#pragma warning (disable : 4786)
 //disable warnings on extern before template instantiation
-#pragma warning (disable : 4231)
+//#pragma warning (disable : 4231)
 
 #ifdef ENGINE_EXPORTS
 #define ENGINE_API __declspec(dllexport) 

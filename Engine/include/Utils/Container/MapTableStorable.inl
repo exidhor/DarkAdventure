@@ -81,11 +81,11 @@ void MapTableStorable<Object, Key, CompareData, Hash>::push_back(Key const& key,
 	m_indexArray.push_back(m_iDTable.lastIndex());
 }
 
-template <typename Object, typename Key, typename CompareData, typename Hash>
+/*template <typename Object, typename Key, typename CompareData, typename Hash>
 template <class ... Args>
 void MapTableStorable<Object, Key, CompareData, Hash>::emplace_back(Key const& key, Args && ... args)
 {
 	m_iDTable.emplace_back(key, args);
 
 	m_indexArray.push_back(m_iDTable.lastIndex());
-}
+}*/

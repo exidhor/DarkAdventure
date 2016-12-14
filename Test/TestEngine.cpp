@@ -40,7 +40,7 @@ void handleUserInput(sf::Event const& event);
 std::vector<dae::graphics::GraphicsComponent> components;
 dae::Engine engine;
 
-void main()
+int main()
 {
 	// initialization of the Graphics Engine
 	engine.init();
@@ -79,6 +79,8 @@ void main()
 
 		engine.display();
 	}
+
+	return 0;
 }
 
 void constructTriangles(std::vector<dae::graphics::GraphicsComponent> & components)

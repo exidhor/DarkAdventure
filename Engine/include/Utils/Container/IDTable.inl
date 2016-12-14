@@ -22,12 +22,12 @@ void IDTable<Object>::push_back(Object const& newElement)
 	m_data.push_back(newElement);
 }
 
-template <typename Object>
+/*template <typename Object>
 template <class ... Args>
 void IDTable<Object>::emplace_back(Args&& ... args)
 {
 	m_data.emplace_back(args);
-}
+}*/
 
 template <typename Object>
 Object & IDTable<Object>::operator[](unsigned index)

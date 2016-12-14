@@ -23,7 +23,7 @@ namespace dae
          * \brief Store some vertices
          *
          */
-        class VertexArray
+        class ENGINE_API VertexArray
         {
         public :
 

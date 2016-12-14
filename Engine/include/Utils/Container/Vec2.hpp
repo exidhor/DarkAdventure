@@ -77,6 +77,8 @@ namespace dae
 		typedef Vec2<unsigned int> Vec2u;
 		typedef Vec2<float>        Vec2f;
 
+		#include "Utils/Container/Vec2.inl"
+
 	}
 }
 

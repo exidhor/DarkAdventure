@@ -26,14 +26,14 @@ void MapTable<Object, Key, Hash>::push_back(Key const& key, Object const& newEle
 	constructKey(key, lastIndex());
 }
 
-template <typename Object, typename Key, typename Hash>
+/*template <typename Object, typename Key, typename Hash>
 template <class ... Args>
 void MapTable<Object, Key, Hash>::emplace_back(Key const& key, Args&& ... args)
 {
 	m_pool.emplace_back(args);
 
 	constructKey(key, lastIndex());
-}
+}*/
 
 template <typename Object, typename Key, typename Hash>
 Object & MapTable<Object, Key, Hash>::operator[](unsigned index)

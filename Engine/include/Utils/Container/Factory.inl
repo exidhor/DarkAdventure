@@ -111,6 +111,6 @@ void Factory<Object>::createModelIfAny()
 	if (!m_model)
 	{
 		// try to construct one with the default constructor
-		m_model = new Object();
+		//m_model = new Object();
 	}
 }

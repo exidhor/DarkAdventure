@@ -37,8 +37,8 @@ namespace dae
 			AnimationPlayer m_player;
 			AnimationMachine m_machine;
 
-			static const AnimationManager * s_animationManager;
-			static const TileManager * s_tileManager;
+			static ENGINE_API const AnimationManager * s_animationManager;
+			static ENGINE_API const TileManager * s_tileManager;
 		};
 		
 	}

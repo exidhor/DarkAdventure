@@ -26,8 +26,8 @@ namespace dae
 
 			void push_back(Key const& key, Object const& newElement);
 
-			template <class ... Args>
-			void emplace_back(Key const& key, Args&& ... args);
+			/*template <class ... Args>
+			void emplace_back(Key const& key, Args&& ... args);*/
 
 			Object & operator[](unsigned index);
 
